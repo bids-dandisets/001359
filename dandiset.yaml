@@ -7,9 +7,34 @@ access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
 assetsSummary:
-  numberOfBytes: 0
-  numberOfFiles: 0
+  approach:
+  - name: electrophysiological approach
+    schemaKey: ApproachType
+  dataStandard:
+  - identifier: RRID:SCR_015242
+    name: Neurodata Without Borders (NWB)
+    schemaKey: StandardsType
+  measurementTechnique:
+  - name: voltage clamp technique
+    schemaKey: MeasurementTechniqueType
+  - name: current clamp technique
+    schemaKey: MeasurementTechniqueType
+  - name: analytical technique
+    schemaKey: MeasurementTechniqueType
+  numberOfBytes: 7495555955
+  numberOfFiles: 125
+  numberOfSubjects: 13
   schemaKey: AssetsSummary
+  species:
+  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_9606
+    name: Homo sapiens - Human
+    schemaKey: SpeciesType
+  variableMeasured:
+  - CurrentClampStimulusSeries
+  - ProcessingModule
+  - CurrentClampSeries
+  - VoltageClampSeries
+  - VoltageClampStimulusSeries
 citation: Gonzalez, Limary (2025) 20250331_AIBS_Patchseq_human (Version draft) [Data
   set]. DANDI Archive. https://dandiarchive.org/dandiset/001359/draft
 contributor:
